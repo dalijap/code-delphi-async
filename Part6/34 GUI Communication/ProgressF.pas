@@ -80,6 +80,7 @@ begin
   if Assigned(FTask) then
     Exit;
 
+  StartProgress;
   FTask := TTask.Run(
     procedure
     var
