@@ -44,7 +44,7 @@ begin
     WS_OVERLAPPEDWINDOW,         // Window style
 
     // Size and position
-    CW_USEDEFAULT, CW_USEDEFAULT, 480, 320,
+    Integer(CW_USEDEFAULT), Integer(CW_USEDEFAULT), 480, 320,
 
     0,                           // Parent window
     0,                           // Menu
